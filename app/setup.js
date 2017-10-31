@@ -1,5 +1,5 @@
-fs = require('fs');
-NodeRSA = require('node-rsa');
+const fs = require('fs');
+const NodeRSA = require('node-rsa');
 
 let baseKey = new NodeRSA({b: 512});
 
